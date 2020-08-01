@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ title }} | Roland Szabó &ndash; Frontend Designer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Blinker:wght@700&display=swap" rel="stylesheet">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/assets/favicons/site.webmanifest">
+		<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<!--[if IE]> <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> <![endif]-->
+	</head>
+
+	<body>
+		{% include header.html %}
+
+		<main data-title="{% if page.url != '/' %}{{ title }}{% endif %}">
+			<div class="container">
+				<header class="page-header">
+					<h1 class="page-header__title">{{ title }}</h1>
+					{% if tagline %}
+						<p class="page-header__tagline">{{ tagline }}</p>
+					{% endif %}
+					{% if intro %}
+						<p class="page-header__intro">{{ intro }}</p>
+					{% endif %}
+				</header>
+				{{ content }}
+			</div>
+		</main>
+
+		{% include footer.html %}
+	</body>
+</html>
