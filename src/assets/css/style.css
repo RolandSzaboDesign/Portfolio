@@ -914,10 +914,6 @@ ins {
 	grid-gap: 50px;
 }
 
-.uses__title {
-	margin-top: 0;
-}
-
 
 
 /* Media Queries for Filthy Graceful Degradation
