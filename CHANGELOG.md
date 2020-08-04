@@ -1,3 +1,8 @@
+v1.2.1
+2020.08.04.
+- Removed unnecessary classes from Contact page
+- Added Netlify deploy status to Readme
+
 v1.2.0
 2020.08.03.
 - Contact page created
