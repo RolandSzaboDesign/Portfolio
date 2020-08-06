@@ -1,3 +1,11 @@
+1.3.0
+2020.08.06.
+- Bookmarks page created
+
+v1.2.2
+2020.08.04.
+- Removed some junk from the public folder
+
 v1.2.1
 2020.08.04.
 - Removed unnecessary classes from Contact page
