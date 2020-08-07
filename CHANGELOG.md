@@ -1,3 +1,7 @@
+1.3.1
+2020.08.07.
+- Trailing slash added to all internal links
+
 1.3.0
 2020.08.06.
 - Bookmarks page created
