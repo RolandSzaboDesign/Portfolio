@@ -299,6 +299,7 @@ ins {
 
 .logo {
 	width: 240px;
+	height: 240px;
 	clip-path: var(--rhombus);
 }
 
