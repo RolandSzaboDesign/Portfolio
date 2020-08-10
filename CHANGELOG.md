@@ -1,3 +1,7 @@
+1.4.1
+2020.08.10.
+- Logo image height fixed in mobile breakpoint
+
 1.4.0
 2020.08.10.
 - Changed font sizes from px to rems to aid accessibility
