@@ -58,6 +58,7 @@ html {
 body {
 	margin: 0 auto;
 	font-family: var(--serif);
+	font-size: 16px;
 	color: var(--text);
 	line-height: 1.25;
 	background-color: var(--bg);
@@ -76,7 +77,7 @@ main:after {
 	right: 50px;
 	z-index: -1;
 	opacity: .5;
-	font-size: 300px;
+	font-size: 18.75rem;
 	color: var(--bg-light);
 	letter-spacing: -10px;
 	line-height: 1;
@@ -107,7 +108,7 @@ h1, .h1 {
 	padding: 10px 30px 15px 0;
 	font-family: var(--display);
 	font-weight: 700;
-	font-size: 100px;
+	font-size: 6.25rem;
 	color: var(--text-light);
 	letter-spacing: -1.5px;
 	line-height: 1;
@@ -129,7 +130,7 @@ h1:before, .h1:before {
 h2, .h2 {
 	margin: 75px 0 40px;
 	font-family: var(--display);
-	font-size: 40px;
+	font-size: 2.5rem;
 	font-weight: 600;
 	color: var(--yellow);
 	text-shadow: 5px 5px 0 var(--bg-dark);
@@ -138,7 +139,7 @@ h2, .h2 {
 h3, .h3 {
 	margin: 40px 0 15px;
 	font-family: var(--display);
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-weight: 600;
 	color: var(--red);
 	text-shadow: 3px 3px 0 var(--bg-dark);
@@ -156,13 +157,13 @@ ol {
 
 li {
 	margin-bottom: 20px;
-	font-size: 24px;
+	font-size: 1.5rem;
 	line-height: 1.6;
 }
 
 p {
 	margin-bottom: 30px;
-	font-size: 24px;
+	font-size: 1.5rem;
 	line-height: 1.6;
 }
 
@@ -218,7 +219,7 @@ ins {
 }
 
 .yuge {
-	font-size: 60px;
+	font-size: 3.75rem;
 	letter-spacing: -1.5px;
 }
 
@@ -230,7 +231,7 @@ ins {
 .badge {
 	display: inline-block;
 	padding: 5px 10px;
-	font-size: 16px;
+	font-size: 1rem;
 	color: var(--text-dark);
 	letter-spacing: .125px;
 	text-transform: uppercase;
@@ -248,7 +249,7 @@ ins {
 	display: inline-block;
 	padding: 25px 75px;
 	font-family: var(--display);
-	font-size: 24px;
+	font-size: 1.5rem;
 	color: var(--bg-dark);
 	line-height: 1;
 	text-align: center;
@@ -333,7 +334,7 @@ ins {
 	justify-content: center;
 	height: 100%;
 	font-family: var(--display);
-	font-size: 24px;
+	font-size: 1.5rem;
 	line-height: 1;
 	text-align: center;
 	text-decoration: none;
@@ -420,7 +421,7 @@ ins {
 .page-header__tagline {
 	margin-top: 10px;
 	font-family: var(--display);
-	font-size: 32px;
+	font-size: 2rem;
 	color: var(--red);
 	line-height: 1;
 	text-transform: uppercase;
@@ -430,13 +431,13 @@ ins {
 	width: 66.6%;
 	margin-top: 25px;
 	margin-bottom: 0;
-	font-size: 28px;
+	font-size: 1.75rem;
 	color: var(--text-light);
 }
 
 .homepage-intro {
 	margin-bottom: 75px;
-	font-size: 48px;
+	font-size: 3rem;
 	letter-spacing: -2px;
 	line-height: 1.4;
 }
@@ -461,13 +462,13 @@ ins {
 .footer-nav__title {
 	display: block;
 	margin-bottom: 5px;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 .footer-nav__link {
 	display: inline-block;
 	padding: 8px 12px;
-	font-size: 22px;
+	font-size: 1.375rem;
 	color: var(--text);
 	border: 0;
 }
@@ -488,7 +489,7 @@ ins {
 
 .disclaimer {
 	margin-bottom: 0;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 .disclaimer__link {
@@ -606,6 +607,7 @@ ins {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	background-color: var(--bg-light);
 	box-shadow: 6px 6px 0 0 var(--bg-dark);
 }
@@ -641,7 +643,7 @@ ins {
 .project__description {
 	flex-grow: 1;
 	padding: 0 30px;
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: var(--text-light);
 	text-align: center;
 }
@@ -673,7 +675,7 @@ ins {
    ------------------------------------------------------------ */
 
 .faq {
-	font-size: 24px;
+	font-size: 1.5rem;
 	line-height: 1.6;
 }
 
@@ -684,7 +686,7 @@ ins {
 	margin-bottom: 20px;
 	font-family: var(--serif);
 	font-weight: 400;
-	font-size: 26px;
+	font-size: 1.625rem;
 	color: var(--red);
 	transition: color .25s;
 	outline: none;
@@ -740,7 +742,7 @@ ins {
 }
 
 .quote__footer {
-	font-size: 24px;
+	font-size: 1.5rem;
 	color: var(--text-dark);
 	line-height: 1.4;
 }
@@ -864,7 +866,7 @@ ins {
 .callout__title {
 	margin-top: 0;
 	margin-bottom: 40px;
-	font-size: 52px;
+	font-size: 3.25rem;
 	letter-spacing: -.5px;
 	line-height: 1;
 }
@@ -895,7 +897,7 @@ ins {
 
 .figure__caption {
 	padding: 20px 30px;
-	font-size: 20px;
+	font-size: 1.25rem;
 	line-height: 1.6;
 	background-color: var(--bg-dark);
 }
@@ -935,18 +937,18 @@ ins {
 
 @media (max-width: 1000px) {
 	h1, .h1 {
-		font-size: 80px;
+		font-size: 5rem;
 		letter-spacing: -1.25px;
 	}
 
 	h2, .h2 {
 		margin: 60px 0 35px;
-		font-size: 36px;
+		font-size: 2.25rem;
 	}
 
 	h3, .h3 {
 		margin: 35px 0 10px;
-		font-size: 28px;
+		font-size: 1.75rem;
 	}
 
 	.page-header {
@@ -959,12 +961,12 @@ ins {
 
 	.homepage-intro {
 		margin-bottom: 60px;
-		font-size: 42px;
+		font-size: 2.625rem;
 		letter-spacing: -1.5px;
 	}
 
 	.process__title {
-		font-size: 40px;
+		font-size: 2.5rem;
 	}
 
 	.read-more {
@@ -1039,7 +1041,7 @@ ins {
 	}
 
 	.figure__caption {
-		font-size: 18px;
+		font-size: 1.125rem;
 		line-height: 1.5;
 	}
 
@@ -1057,7 +1059,7 @@ ins {
 
 	.callout__title {
 		margin-bottom: 30px;
-		font-size: 46px;
+		font-size: 2.875rem;
 	}
 
 	.uses {
@@ -1081,7 +1083,7 @@ ins {
 
 @media (max-width: 800px) {
 	.yuge {
-		font-size: 55px;
+		font-size: 3.375rem;
 	}
 }
 
@@ -1108,7 +1110,7 @@ ins {
 	.site-nav__link {
 		margin: 0;
 		padding: 15px;
-		font-size: 20px;
+		font-size: 1.25rem;
 		clip-path: inherit;
 	}
 
@@ -1123,7 +1125,7 @@ ins {
 
 	main:after {
 		top: 75px;
-		font-size: 200px;
+		font-size: 12.5rem;
 		letter-spacing: -6px;
 	}
 
@@ -1134,16 +1136,16 @@ ins {
 
 	p {
 		margin-bottom: 25px;
-		font-size: 21px;
+		font-size: 1.3125rem;
 	}
 
 	li {
 		margin-bottom: 15px;
-		font-size: 22px;
+		font-size: 1.375rem;
 	}
 
 	.yuge {
-		font-size: 40px;
+		font-size: 2.5rem;
 		letter-spacing: -1px;
 	}
 
@@ -1152,16 +1154,16 @@ ins {
 	}
 
 	.page-header__tagline {
-		font-size: 28px;
+		font-size: 1.75rem;
 	}
 
 	.page-header__intro {
-		font-size: 26px;
+		font-size: 1.625rem;
 	}
 
 	.homepage-intro {
 		margin-bottom: 50px;
-		font-size: 36px;
+		font-size: 2.25rem;
 		letter-spacing: -1.25px;
 	}
 
@@ -1204,11 +1206,11 @@ ins {
 	}
 
 	.quote__footer {
-		font-size: 22px;
+		font-size: 1.375rem;
 	}
 
 	.faq__question {
-		font-size: 24px;
+		font-size: 1.5rem;
 	}
 
 	.callout {
@@ -1230,7 +1232,7 @@ ins {
 	}
 
 	.process__title {
-		font-size: 36px;
+		font-size: 2.25rem;
 	}
 
 	.process__title:before {
@@ -1257,18 +1259,18 @@ ins {
 	}
 
 	h1, .h1 {
-		font-size: 60px;
+		font-size: 3.75rem;
 		letter-spacing: -1px;
 	}
 
 	h2, .h2 {
 		margin: 50px 0 25px;
-		font-size: 32px;
+		font-size: 2rem;
 	}
 
 	h3, .h3 {
 		margin-top: 30px;
-		font-size: 24px;
+		font-size: 1.5rem;
 	}
 
 	.page-header {
@@ -1276,37 +1278,37 @@ ins {
 	}
 
 	.page-header__tagline {
-		font-size: 24px;
+		font-size: 1.5rem;
 	}
 
 	.page-header__intro {
 		width: 100%;
 		margin-top: 20px;
-		font-size: 22px;
+		font-size: 1.375rem;
 	}
 
 	.homepage-intro {
 		margin-bottom: 40px;
-		font-size: 30px;
+		font-size: 1.875rem;
 		letter-spacing: -1px;
 	}
 
 	p {
 		margin-bottom: 20px;
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 
 	li {
 		margin-bottom: 12px;
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 
 	.yuge {
-		font-size: 30px;
+		font-size: 1.875rem;
 	}
 
 	.quote__footer {
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 
 	.button {
@@ -1314,7 +1316,7 @@ ins {
 	}
 
 	.process__title {
-		font-size: 30px;
+		font-size: 1.875rem;
 	}
 
 	.process__title:before {
@@ -1327,7 +1329,7 @@ ins {
 
 	.faq__question {
 		margin-bottom: 15px;
-		font-size: 20px;
+		font-size: 1.25rem;
 	}
 
 	.callout {
@@ -1338,7 +1340,7 @@ ins {
 
 	.callout__title {
 		margin-bottom: 15px;
-		font-size: 36px;
+		font-size: 2.25rem;
 	}
 
 	.callout__description {
@@ -1346,16 +1348,16 @@ ins {
 	}
 
 	.footer-nav__title {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
 	.footer-nav__link {
 		padding: 8px;
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 
 	.disclaimer {
-		font-size: 14px;
+		font-size: .875rem;
 	}
 
 	.job {
@@ -1374,42 +1376,42 @@ ins {
 	}
 
 	h1, .h1 {
-		font-size: 44px;
+		font-size: 2.75rem;
 	}
 
 	h2, .h2 {
 		margin: 40px 0 20px;
-		font-size: 28px;
+		font-size: 1.75rem;
 	}
 
 	h3, .h3 {
 		margin-bottom: 5px;
-		font-size: 22px;
+		font-size: 1.375rem;
 	}
 
 	.page-header__intro {
 		margin-top: 15px;
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 
 	.page-header__tagline {
-		font-size: 21px;
+		font-size: 1.3125rem;
 	}
 
 	.homepage-intro {
 		margin-bottom: 30px;
-		font-size: 26px;
+		font-size: 1.625rem;
 		letter-spacing: -.5px;
 	}
 
 	p {
-		font-size: 16px;
+		font-size: 1rem;
 		line-height: 1.5;
 	}
 
 	li {
 		margin-bottom: 10px;
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
 	ol, ul {
@@ -1435,11 +1437,11 @@ ins {
 
 	.faq__question {
 		margin-bottom: 10px;
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 
 	.footer-nav__link {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
 	.callout {
@@ -1447,7 +1449,7 @@ ins {
 	}
 
 	.callout__title {
-		font-size: 30px;
+		font-size: 1.875rem;
 	}
 
 	.callout__description {
@@ -1455,7 +1457,7 @@ ins {
 	}
 
 	.button {
-		font-size: 21px;
+		font-size: 1.3125rem;
 	}
 
 	.project__title {
@@ -1463,7 +1465,7 @@ ins {
 	}
 
 	.project__description {
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 
 	.figure {
@@ -1472,7 +1474,7 @@ ins {
 
 	.figure__caption {
 		padding: 20px;
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
 	.timeline {
@@ -1483,6 +1485,6 @@ ins {
 
 @media (max-width: 420px) {
 	.site-nav__link {
-		font-size: 18px;
+		font-size: 1.125rem;
 	}
 }

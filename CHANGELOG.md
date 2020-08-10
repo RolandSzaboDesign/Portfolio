@@ -1,3 +1,11 @@
+1.4.0
+2020.08.10.
+- Changed font sizes from px to rems to aid accessibility
+
+1.3.2
+2020.08.09.
+- Set an explicit height for the logo image to prevent jumping links on slow connections
+
 1.3.1
 2020.08.07.
 - Trailing slash added to all internal links
