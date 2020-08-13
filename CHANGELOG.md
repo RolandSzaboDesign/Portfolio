@@ -1,3 +1,12 @@
+1.5.1
+2020.08.13.
+- Fluid sizing improvements
+
+1.5.0
+2020.08.13.
+- Fluid sizing added to a wide variety of typographic elements
+- Removed unnecessry div from FAQ answers
+
 1.4.1
 2020.08.10.
 - Logo image height fixed in mobile breakpoint

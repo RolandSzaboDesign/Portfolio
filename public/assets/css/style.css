@@ -438,7 +438,6 @@ ins {
 }
 
 .homepage-intro {
-	margin-bottom: 75px;
 	font-size: 3rem;
 	letter-spacing: -2px;
 	line-height: 1.4;
@@ -943,8 +942,6 @@ ins {
 	}
 
 	.homepage-intro {
-		margin-bottom: 60px;
-		font-size: 2.625rem;
 		letter-spacing: -1.5px;
 	}
 
@@ -1114,8 +1111,6 @@ ins {
 	}
 
 	.homepage-intro {
-		margin-bottom: 50px;
-		font-size: 2.25rem;
 		letter-spacing: -1.25px;
 	}
 
@@ -1209,8 +1204,6 @@ ins {
 	}
 
 	.homepage-intro {
-		margin-bottom: 40px;
-		font-size: 1.875rem;
 		letter-spacing: -1px;
 	}
 
@@ -1286,8 +1279,6 @@ ins {
 	}
 
 	.homepage-intro {
-		margin-bottom: 30px;
-		font-size: 1.5rem;
 		letter-spacing: -.4px;
 	}
 
@@ -1421,6 +1412,11 @@ ins {
 		font-size: calc(1.125rem + (1.75 - 1.125) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 	}
 
+	.homepage-intro {
+		margin-bottom: calc(2rem + (4.75 - 2) * ((100vw - 26.25rem) / (62.5 - 26.25)));
+		font-size: calc(1.5rem + (3 - 1.5) * ((100vw - 26.25rem) / (62.5 - 26.25)));
+	}
+
 	p {
 		margin-bottom: calc(1.25rem + (2 - 1.25) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 		font-size: calc(1rem + (1.5 - 1) * ((100vw - 26.25rem) / (62.5 - 26.25)));
@@ -1463,6 +1459,11 @@ ins {
 	.page-header__intro {
 		margin-top: 1rem;
 		font-size: 1.125rem;
+	}
+
+	.homepage-intro {
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
 	}
 
 	p {
