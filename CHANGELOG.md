@@ -1,3 +1,7 @@
+*v1.5.3*
+2020.08.13.
+- Fixed navigation hover effect on mobiles
+
 *v1.5.2*
 2020.08.13.
 - More fluid sizing improvements

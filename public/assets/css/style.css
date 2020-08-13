@@ -1084,8 +1084,10 @@ ins {
 		margin: 0;
 		padding: 15px;
 		font-size: 1.25rem;
-		clip-path: inherit;
+		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 	}
+
+	.site-nav__link:before { clip-path: none; }
 
 	.logo {
 		width: 200px;
