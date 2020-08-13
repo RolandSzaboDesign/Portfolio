@@ -147,14 +147,12 @@ h3, .h3 {
 	text-shadow: 3px 3px 0 var(--bg-dark);
 }
 
-ul {
-	margin: 0 0 40px 30px;
-	list-style-type: disc;
-}
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
 
-ol {
-	margin: 0 0 40px 30px;
-	list-style-type: decimal;
+ul, ol {
+	margin-bottom: 40px;
+	margin-left: 30px;
 }
 
 li {
@@ -1062,12 +1060,6 @@ ins {
 	}
 }
 
-@media (max-width: 800px) {
-	.yuge {
-		font-size: 3.375rem;
-	}
-}
-
 @media (max-width: 750px) {
 	.main-header {
 		height: auto;
@@ -1107,7 +1099,6 @@ ins {
 	}
 
 	.yuge {
-		font-size: 2.5rem;
 		letter-spacing: -1px;
 	}
 
@@ -1157,10 +1148,6 @@ ins {
 		font-size: 1.375rem;
 	}
 
-	.faq__question {
-		font-size: 1.5rem;
-	}
-
 	.callout {
 		margin-top: 75px;
 		padding: 40px;
@@ -1208,10 +1195,6 @@ ins {
 		letter-spacing: -1px;
 	}
 
-	.yuge {
-		font-size: 1.875rem;
-	}
-
 	.quote__footer {
 		font-size: 1.125rem;
 	}
@@ -1234,7 +1217,6 @@ ins {
 
 	.faq__question {
 		margin-bottom: 15px;
-		font-size: 1.25rem;
 	}
 
 	.callout {
@@ -1287,10 +1269,6 @@ ins {
 		line-height: 1.6;
 	}
 
-	ol, ul {
-		margin: 0 0 30px 20px;
-	}
-
 	.read-more {
 		margin: 30px 0;
 		padding: 20px;
@@ -1310,7 +1288,6 @@ ins {
 
 	.faq__question {
 		margin-bottom: 10px;
-		font-size: 1.125rem;
 	}
 
 	.footer-nav__link {
@@ -1400,6 +1377,10 @@ ins {
 		font-size: calc(1.375rem + (1.875 - 1.375) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 	}
 
+	.yuge {
+		font-size: calc(1.875rem + (3.75 - 1.875) * ((100vw - 26.25rem) / (62.5 - 26.25)));
+	}
+
 	.page-header {
 		margin-bottom: calc(2.5rem + (4.75 - 2.5) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 	}
@@ -1418,6 +1399,10 @@ ins {
 		font-size: calc(1.5rem + (3 - 1.5) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 	}
 
+	.faq__question {
+		font-size: calc(1.125rem + (1.625 - 1.125) * ((100vw - 26.25rem) / (62.5 - 26.25)));
+	}
+
 	p {
 		margin-bottom: calc(1.25rem + (2 - 1.25) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 		font-size: calc(1rem + (1.5 - 1) * ((100vw - 26.25rem) / (62.5 - 26.25)));
@@ -1426,6 +1411,11 @@ ins {
 	li {
 		margin-bottom: calc(0.625rem + (1.25 - 0.625) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 		font-size: calc(1rem + (1.5 - 1) * ((100vw - 26.25rem) / (62.5 - 26.25)));
+	}
+
+	ul, ol {
+		margin-left: calc(1.125rem + (1.875 - 1.125) * ((100vw - 26.25rem) / (62.5 - 26.25)));
+		margin-bottom: calc(1.5rem + (2.5 - 1.5) * ((100vw - 26.25rem) / (62.5 - 26.25)));
 	}
 }
 
@@ -1454,7 +1444,10 @@ ins {
 		font-size: 1.375rem;
 	}
 
+	.yuge { font-size: 1.875rem; }
+
 	.page-header { margin-bottom: 2.5rem; }
+
 	.page-header__tagline { font-size: 1.375rem; }
 
 	.page-header__intro {
@@ -1467,6 +1460,8 @@ ins {
 		font-size: 1.5rem;
 	}
 
+	.faq__question { font-size: 1.125rem; }
+
 	p {
 		margin-bottom: 1.25rem;
 		font-size: 1rem;
@@ -1475,5 +1470,10 @@ ins {
 	li {
 		margin-bottom: 0.625rem;
 		font-size: 1rem;
+	}
+
+	ul, ol {
+		margin-left: 0;
+		margin-bottom: 1.5rem;
 	}
 }
