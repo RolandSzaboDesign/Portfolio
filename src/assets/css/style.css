@@ -66,8 +66,8 @@ body {
 
 main {
 	position: relative;
-	padding-top: 6.25em;
-	padding-bottom: 6.25em;
+	padding-top: 6.25rem;
+	padding-bottom: 6.25rem;
 }
 
 main:after {
@@ -88,8 +88,8 @@ main:after {
 .container {
 	max-width: 1050px;
 	margin: 0 auto;
-	padding-left: 4.75em;
-	padding-right: 4.75em;
+	padding-left: 4.75rem;
+	padding-right: 4.75rem;
 }
 
 img {
@@ -417,7 +417,7 @@ ins {
    ------------------------------------------------------------ */
 
 .page-header {
-	margin-bottom: 4.75em;
+	margin-bottom: 4.75rem;
 }
 
 .page-header__tagline {
@@ -438,6 +438,7 @@ ins {
 }
 
 .homepage-intro {
+	margin-bottom: 4.75rem;
 	font-size: 3rem;
 	letter-spacing: -2px;
 	line-height: 1.4;
