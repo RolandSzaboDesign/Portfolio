@@ -1,3 +1,7 @@
+*v1.5.4*
+2020.08.16.
+- Swapped Bookmarks and Uses links between header and footer
+
 *v1.5.3*
 2020.08.13.
 - Fixed navigation hover effect on mobiles
