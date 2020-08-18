@@ -1,3 +1,8 @@
+*v1.6.0*
+2020.08.18.
+- Jump to top link added
+- Logo image resized to twice its displayed size for better anti-aliasing
+
 *v1.5.4*
 2020.08.16.
 - Swapped Bookmarks and Uses links between header and footer
