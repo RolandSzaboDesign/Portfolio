@@ -1,3 +1,7 @@
+*v1.6.1*
+2020.08.20.
+- Fixed some Bookmarks page links
+
 *v1.6.0*
 2020.08.18.
 - Jump to top link added
