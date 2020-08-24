@@ -1,3 +1,7 @@
+*v1.7.0*
+2020.08.24.
+- Added 404 page
+
 *v1.6.1*
 2020.08.20.
 - Fixed some Bookmarks page links
