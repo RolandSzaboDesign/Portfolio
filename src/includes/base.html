@@ -5,7 +5,7 @@
 		{%- if page.url == "/" %}
 		<title>Roland Szabó Frontend Designer</title>
 		{%- else %}
-		<title>{{ title }} | Roland Szabó &ndash; Frontend Designer</title>
+		<title>{{ title }} | Roland Szabó Frontend Designer</title>
 		{%- endif %}
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -50,7 +50,7 @@
 	<body>
 		{% include header.html %}
 
-		<main data-title="{% if page.url != '/' %}{{ title }}{% endif %}">
+		<main data-title="{% if bg %}{{ bg }}{% else %}{{ title }}{% endif %}">
 			<div class="container">
 				<header class="page-header">
 					<h1 class="page-header__title">{{ title }}</h1>
