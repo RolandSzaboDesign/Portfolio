@@ -1,3 +1,7 @@
+*v1.7.2*
+2020.09.29.
+- New bookmark
+
 *v1.7.1*
 2020.09.01.
 - New bookmark
