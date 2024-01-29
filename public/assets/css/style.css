@@ -833,7 +833,8 @@ ins {
 }
 
 .job__period {
-	display: block;
+	font-size: 75%;
+	font-style: italic;
 }
 
 
