@@ -1,5 +1,5 @@
 # Portfolio
-The Personal Website of Roland Szabó, Frontend Designer.
+The Personal Website of Roland Szabó, Senior Web Designer.
 Hand-crafted in HTML & CSS. Generated with Eleventy. Served by Netlify.
 
 ## Deploy Status
