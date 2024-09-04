@@ -1,4 +1,5 @@
 .home__tagline {
+	margin-top: 0;
 	margin-bottom: 3rem;
 	font-weight: 700;
 }
@@ -53,9 +54,13 @@
 	}
 }
 
+.benefits__title {
+	margin-top: 0;
+}
+
 .process {
 	display: grid;
-	grid-gap: 4rem;
+	grid-gap: 2rem;
 	margin-left: 2.5rem;
 	counter-reset: process;
 }
@@ -74,6 +79,7 @@
 
 .process__title {
 	counter-increment: process;
+	margin-top: 0;
 	margin-bottom: 1rem;
 }
 
