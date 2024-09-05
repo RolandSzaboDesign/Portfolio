@@ -34,7 +34,7 @@ html { box-sizing: border-box; }
 	--bg-light: #262f40;
 
 	--gradient: -webkit-linear-gradient(left, var(--yellow), var(--pink));
-	--parallelogram: polygon(1rem 0, 100% 0, calc(100% - 1rem) 100%, 0 100%);
+	--parallelogram: polygon(2rem 0, 100% 0, calc(100% - 2rem) 100%, 0 100%);
 	--rhombus: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 	--transition-duration: .25s;
 }
@@ -276,13 +276,38 @@ small {
 /* Buttons */
 
 .btn {
+	position: relative;
 	display: inline-block;
-	padding: 1rem 3rem;
+	padding: 1.25rem 4.25rem;
 	font-weight: 800;
 	letter-spacing: -.5px;
 	text-transform: uppercase;
 	background-color: var(--bg-dark);
 	clip-path: var(--parallelogram);
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color: var(--bg-dark);
+	clip-path: polygon(2.5rem .5rem, calc(100% - .7rem) .5rem, calc(100% - 2.5rem) calc(100% - .5rem), .7rem calc(100% - .5rem));
+	transition: var(--transition-duration) transform;
+	transform: scale(0, 0);
+}
+
+.btn:hover,
+.btn:focus {
+	color: var(--text-light);
+}
+
+.btn:hover:after,
+.btn:focus:after {
+	transform: scale(1, 1);
 }
 
 .btn--primary {
@@ -293,6 +318,17 @@ small {
 
 
 /* Testimonial, Quote */
+
+.testimonials {
+	display: grid;
+	grid-gap: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.testimonials {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
 
 .testimonial {
 	border-left: 1rem solid var(--bg-light);
@@ -321,6 +357,9 @@ small {
 
 .testimonial__image {
 	clip-path: var(--rhombus);
+	width: 10rem;
+	height: 10rem;
+	background-color: var(--bg-light);
 }
 
 .testimonial__author {
@@ -336,12 +375,6 @@ small {
 
 .testimonial__text {
 	margin-bottom: 0;
-}
-
-@media only screen and (min-width: 768px) {
-	.testimonial__text {
-		margin-left: 12rem;
-	}
 }
 
 .testimonial__text:before { content: "“"; }
@@ -405,12 +438,17 @@ small {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 2rem;
-	padding: 1rem;
 	font-weight: 700;
 	color: var(--text-light);
 	line-height: 1;
 	text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+	.logo {
+		margin-top: 2rem;
+		padding: 1rem;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -425,14 +463,13 @@ small {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 6rem;
+	width: 7rem;
 	height: 3rem;
 	margin-right: 1rem;
 	font-weight: 900;
-	font-size: 2.6rem;
+	font-size: 2rem;
 	letter-spacing: -2px;
 	color: var(--bg);
-	font-size: 2rem;
 	background: var(--text);
 	clip-path: var(--parallelogram);
 }
@@ -470,6 +507,11 @@ small {
 	.nav__link {
 		padding: 2rem;
 	}
+}
+
+.nav__link:hover,
+.nav__link:focus {
+	color: var(--text-light);
 }
 
 
