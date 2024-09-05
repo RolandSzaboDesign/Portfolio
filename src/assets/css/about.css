@@ -1,4 +1,4 @@
-.home-photo {
+.about-photo {
 	clip-path: var(--rhombus);
 	display: flex;
 	max-width: 400px;
@@ -7,14 +7,14 @@
 }
 
 @media only screen and (max-width: 767px) {
-	.home-photo {
+	.about-photo {
 		margin: 0 auto 2rem;
 		padding: 1rem;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	.home-photo {
+	.about-photo {
 		float: right;
 		margin-left: 5rem;
 		padding: 2rem;
@@ -22,7 +22,7 @@
 	}
 }
 
-.home-photo__image {
+.about-photo__image {
 	clip-path: var(--rhombus);
 }
 

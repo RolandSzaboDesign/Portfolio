@@ -450,6 +450,10 @@ small {
 	margin-bottom: 0;
 }
 
+.nav__item {
+	margin-bottom: 0;
+}
+
 .nav__link {
 	display: block;
 	color: var(--text);
