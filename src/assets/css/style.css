@@ -33,9 +33,9 @@ html { box-sizing: border-box; }
 	--bg-dark: #151b26;
 	--bg-light: #262f40;
 
-	--gradient: -webkit-linear-gradient(left, var(--yellow), var(--pink));
-	--parallelogram: polygon(2rem 0, 100% 0, calc(100% - 2rem) 100%, 0 100%);
 	--rhombus: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	--parallelogram: polygon(2rem 0, 100% 0, calc(100% - 2rem) 100%, 0 100%);
+	--gradient: -webkit-linear-gradient(left, var(--yellow), var(--pink));
 	--transition-duration: .25s;
 }
 
@@ -108,15 +108,23 @@ img {
 	padding-bottom: 4rem;
 }
 
-.section {
-	padding-bottom: 8rem;
-}
-
 .container {
 	max-width: 96rem;
 	margin: 0 auto;
 	padding-left: 2rem;
 	padding-right: 2rem;
+}
+
+.section {
+	padding-bottom: 4rem;
+}
+
+.cta {
+	margin-top: 4rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	text-align: center;
+	background-color: var(--bg-dark);
 }
 
 
@@ -242,6 +250,10 @@ em {
 
 small {
 	font-size: 75%;
+}
+
+.text-center {
+	text-align: center;
 }
 
 .text-pink { color: var(--pink); }
@@ -382,28 +394,77 @@ small {
 
 
 
-/* FAQ, Accordion */
+/* Services */
 
-.faq {
-	margin-bottom: 1rem;
-	background-color: var(--bg-light);
+.services {
+	display: grid;
+	margin-bottom: 2rem;
 }
 
-.faq__question {
-	cursor: pointer;
-	padding: 1rem 2rem;
-	font-weight: 700;
-	transition: var(--transition-duration) color;
+@media only screen and (max-width: 991px) {
+	.services {
+		grid-gap: 2rem;
+	}
 }
 
-.faq__question:hover,
-.faq__question:focus {
-	color: var(--yellow);
+@media only screen and (min-width: 992px) {
+	.services {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 4rem;
+	}
 }
 
-.faq__answer {
-	padding: 1rem 2rem 1rem;
-	color: var(--text-light);
+.service {
+	background-color: var(--bg-dark);
+}
+
+@media only screen and (max-width: 767px) {
+	.service {
+		padding: 2rem;
+		border-left: .5rem solid var(--bg-light);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.service {
+		padding: 3rem;
+		border-left: .75rem solid var(--bg-light);
+	}
+}
+
+.service--pink {
+	border-left-color: var(--pink);
+}
+
+.service--yellow {
+	border-left-color: var(--yellow);
+}
+
+.service__header {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+	.service__header {
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.service__header {
+		margin-bottom: 3rem;
+	}
+}
+
+.service__icon {
+	font-size: 5rem;
+	margin-right: 2rem;
+}
+
+.service__title {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 

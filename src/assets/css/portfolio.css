@@ -1,5 +1,6 @@
 .portfolio {
 	margin-bottom: 2rem;
+	border-top: .5rem solid var(--yellow);
 	background-color: var(--bg-dark);
 }
 
@@ -22,6 +23,7 @@
 .portfolio__gallery {
 	display: grid;
 	grid-gap: 1rem;
+	margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 575px) {
