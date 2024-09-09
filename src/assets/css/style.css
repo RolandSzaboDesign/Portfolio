@@ -249,7 +249,7 @@ em {
 }
 
 small {
-	font-size: 75%;
+	font-size: 82.5%;
 }
 
 .text-center {
@@ -581,7 +581,29 @@ small {
 
 .footer {
 	padding: 2rem;
+	color: var(--text-dark);
+	text-align: center;
 	border-bottom: .75rem solid var(--bg-dark);
+}
+
+.footer__link {
+	color: var(--text-dark);
+	border-bottom: 1px dashed var(--text-dark);
+}
+
+.footer__link:hover,
+.footer__link:focus {
+	color: var(--yellow);
+}
+
+.copyright {
+	margin-bottom: 1rem;
+	font-weight: 700;
+	letter-spacing: -.5px;
+}
+
+.smallprint {
+	font-size: 87.5%;
 }
 
 
