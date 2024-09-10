@@ -44,6 +44,16 @@
 	}
 }
 
+.portfolio__image {
+	cursor: pointer;
+	transition: var(--transition-duration) opacity;
+}
+
+.portfolio__image:hover,
+.portfolio__image:focus {
+	opacity: .75;
+}
+
 @media only screen and (max-width: 767px) {
 	.portfolio__image--featured {
 		grid-column: -1 / 1;

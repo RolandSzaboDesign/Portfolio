@@ -292,9 +292,10 @@ small {
 	display: inline-block;
 	padding: 1.25rem 4.25rem;
 	font-weight: 800;
+	color: #FFF;
 	letter-spacing: -.5px;
 	text-transform: uppercase;
-	background-color: var(--bg-dark);
+	background-color: var(--bg-light);
 	clip-path: var(--parallelogram);
 }
 
