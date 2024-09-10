@@ -1,5 +1,5 @@
 /*
-	Roland Szabó Design
+	Roland Szabó Design v2
 	https://rolandszabo.design
 */
 
@@ -22,8 +22,8 @@ html { box-sizing: border-box; }
 /* Variables */
 
 :root {
-	--yellow: #ffc048;
-	--pink: #ef5777;
+	--yellow: #ffaf40;
+	--pink: #ff4d79;
 
 	--text: #a1a7b3;
 	--text-dark: #6c7380;
@@ -583,7 +583,6 @@ small {
 	padding: 2rem;
 	color: var(--text-dark);
 	text-align: center;
-	border-bottom: .75rem solid var(--bg-dark);
 }
 
 .footer__link {
@@ -611,9 +610,7 @@ small {
 /* Utility  Classes */
 
 .mt-0 { margin-top: 0; }
-.mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
 
 .mb-0 { margin-bottom: 0; }
-.mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
