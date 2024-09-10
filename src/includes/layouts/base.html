@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Your Website &ndash; Simplified & Supercharged. | Roland Szabó Design</title>
+		<title>{% if title %}{{ title }} | {% endif %}Your Website &ndash; Simplified & Supercharged. | Roland Szabó Design</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="description" content="Roland Szabó Design">
@@ -27,7 +27,7 @@
 		<!-- OpenGraph -->
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.design/">
-		<meta property="og:image" content="{{ site.url }}/assets/images/og-image.webp">
+		<meta property="og:image" content="/assets/images/og-image.webp">
 		<meta property="og:title" content="Your Website - Simplified & Supercharged. | Roland Szabó Design">
 		<meta property="og:description" content="Everyone deserves a website that's fast, simple, and effortless to manage.">
 
@@ -37,13 +37,8 @@
 		<link rel="stylesheet" href="/assets/css/fontawesome-brands.min.css">
 
 		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7EM7TYLQD9"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-7EM7TYLQD9');
-		</script>
+		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-7EM7TYLQD9"></script>
+		<script defer src="/assets/js/analytics.js"></script>
 	</head>
 	<body>
 		{% include "partials/header.html" %}
