@@ -19,6 +19,34 @@ html { box-sizing: border-box; }
 
 
 
+/* Webfonts */
+
+@font-face {
+	font-display: swap;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 200;
+	src: url('../webfonts/nunito-200.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../webfonts/nunito-700.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../webfonts/nunito-800.woff2') format('woff2');
+}
+
+
+
 /* Variables */
 
 :root {
@@ -65,7 +93,7 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	font-family: "Nunito", sans-serif;
-	font-weight: 200; 
+	font-weight: 200;
 	color: var(--text);
 	letter-spacing: -0.25px;
 	line-height: 1.75;
@@ -139,7 +167,6 @@ h1, h2, h3, h4,
 }
 
 h1, .h1 {
-	font-weight: 100;
 	letter-spacing: -1px;
 	line-height: 1.4;
 }
@@ -249,7 +276,7 @@ a:focus {
 }
 
 strong {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 em {
@@ -533,9 +560,9 @@ small {
 	width: 7rem;
 	height: 3rem;
 	margin-right: 1rem;
-	font-weight: 900;
+	font-weight: 800;
 	font-size: 2rem;
-	letter-spacing: -2px;
+	letter-spacing: -1.4px;
 	color: var(--bg);
 	background: var(--text);
 	clip-path: var(--parallelogram);
