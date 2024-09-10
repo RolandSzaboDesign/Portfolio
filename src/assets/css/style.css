@@ -35,6 +35,8 @@ html { box-sizing: border-box; }
 
 	--rhombus: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 	--parallelogram: polygon(2rem 0, 100% 0, calc(100% - 2rem) 100%, 0 100%);
+	--parallelogram-after: polygon(2.5rem .5rem, calc(100% - .7rem) .5rem, calc(100% - 2.5rem) calc(100% - .5rem), .7rem calc(100% - .5rem));
+	
 	--gradient: -webkit-linear-gradient(left, var(--yellow), var(--pink));
 	--transition-duration: .25s;
 }
@@ -237,7 +239,13 @@ li {
 a {
 	color: var(--yellow);
 	text-decoration: none;
+	border-bottom: 1px dashed var(--text-dark);
 	transition: var(--transition-duration) color;
+}
+
+a:hover,
+a:focus {
+	color: #FFF;
 }
 
 strong {
@@ -295,6 +303,7 @@ small {
 	color: #FFF;
 	letter-spacing: -.5px;
 	text-transform: uppercase;
+	border: 0;
 	background-color: var(--bg-light);
 	clip-path: var(--parallelogram);
 }
@@ -308,14 +317,9 @@ small {
 	bottom: 0;
 	z-index: -1;
 	background-color: var(--bg-dark);
-	clip-path: polygon(2.5rem .5rem, calc(100% - .7rem) .5rem, calc(100% - 2.5rem) calc(100% - .5rem), .7rem calc(100% - .5rem));
-	transition: var(--transition-duration) transform;
+	clip-path: var(--parallelogram-after);
+	transition: var(--transition-duration) color, var(--transition-duration) transform;
 	transform: scale(0, 0);
-}
-
-.btn:hover,
-.btn:focus {
-	color: var(--text-light);
 }
 
 .btn:hover:after,
@@ -502,8 +506,9 @@ small {
 	justify-content: center;
 	font-weight: 700;
 	color: var(--text-light);
-	line-height: 1;
 	text-align: center;
+	line-height: 1;
+	border: 0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -557,6 +562,7 @@ small {
 	display: block;
 	color: var(--text);
 	line-height: 1;
+	border: 0;
 }
 
 @media only screen and (max-width: 575px) {
@@ -588,7 +594,6 @@ small {
 
 .footer__link {
 	color: var(--text-dark);
-	border-bottom: 1px dashed var(--text-dark);
 }
 
 .footer__link:hover,
