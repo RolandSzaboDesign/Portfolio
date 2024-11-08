@@ -56,7 +56,7 @@ html { box-sizing: border-box; }
 	--text: #a1a7b3;
 	--text-dark: #6c7380;
 	--text-light: #dadee5;
-	
+
 	--bg: #1f2533;
 	--bg-dark: #151b26;
 	--bg-light: #262f40;
@@ -64,7 +64,7 @@ html { box-sizing: border-box; }
 	--rhombus: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 	--parallelogram: polygon(2rem 0, 100% 0, calc(100% - 2rem) 100%, 0 100%);
 	--parallelogram-after: polygon(2.5rem .5rem, calc(100% - .7rem) .5rem, calc(100% - 2.5rem) calc(100% - .5rem), .7rem calc(100% - .5rem));
-	
+
 	--gradient: -webkit-linear-gradient(left, var(--yellow), var(--pink));
 	--transition-duration: .25s;
 }
@@ -100,7 +100,7 @@ body {
 	background-color: var(--bg);
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575.98px) {
 	body {
 		font-size: 1.6rem;
 	}
@@ -171,14 +171,14 @@ h1, .h1 {
 	line-height: 1.4;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575.98px) {
 	h1, .h1 {
 		margin-bottom: 3rem;
 		font-size: 3rem;
 	}
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
 	h1, .h1 {
 		margin-bottom: 4rem;
 		font-size: 4rem;
@@ -198,14 +198,14 @@ h2, .h2 {
 	line-height: 1.4;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575.98px) {
 	h2, .h2 {
 		margin-top: 2.5rem;
 		font-size: 2.5rem;
 	}
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
 	h2, .h2 {
 		margin-top: 3rem;
 		font-size: 3rem;
@@ -226,14 +226,14 @@ h3, .h3 {
 	line-height: 1.4;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575.98px) {
 	h3, .h3 {
 		margin-top: 1.5rem;
 		font-size: 2rem;
 	}
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
 	h3, .h3 {
 		margin-top: 2rem;
 		font-size: 2.5rem;
@@ -362,7 +362,7 @@ small {
 	margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991.98px) {
 	.services {
 		grid-gap: 2rem;
 	}
@@ -379,7 +379,7 @@ small {
 	background-color: var(--bg-dark);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.service {
 		padding: 2rem;
 		border-left: .5rem solid var(--bg-light);
@@ -406,7 +406,7 @@ small {
 	align-items: center;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.service__header {
 		margin-bottom: 2rem;
 	}
@@ -467,7 +467,7 @@ small {
 	border: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.logo {
 		margin-top: 2rem;
 		padding: 1rem;
@@ -521,7 +521,7 @@ small {
 	border: 0;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575.98px) {
 	.nav__link {
 		padding: 1.25rem;
 	}
