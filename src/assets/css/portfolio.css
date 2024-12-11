@@ -4,7 +4,7 @@
 	background-color: var(--bg-dark);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.portfolio {
 		padding: 2rem;
 	}
@@ -32,7 +32,7 @@
 	}
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
 	.portfolio__gallery {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -54,7 +54,7 @@
 	opacity: .75;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.portfolio__image--featured {
 		grid-column: -1 / 1;
 	}

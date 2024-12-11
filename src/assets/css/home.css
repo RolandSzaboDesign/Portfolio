@@ -26,7 +26,7 @@
 	display: grid;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.benefits {
 		grid-gap: 3rem;
 	}
@@ -39,7 +39,7 @@
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
 	.benefits__item {
 		padding-top: 1.5rem;
 		border-top: .5rem solid var(--bg-dark);
