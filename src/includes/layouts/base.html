@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{% if title %}{{ title }} | {% endif %}Your Website &ndash; Simplified & Supercharged. | Roland Szabó Design</title>
+		<title>{% if title %}{{ title }} | {% endif %}Your Website &ndash; Simplified & Supercharged.</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="Roland Szabó Design">
+		<meta name="description" content="{{ description | default: 'Everyone deserves a website that is fast, simple, and effortless to manage.' }}">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/assets/css/style.css">
@@ -28,9 +28,10 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@rszabodesign">
 		<meta name="twitter:creator" content="@rszabodesign">
+		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rolandszabo.design/">
 		<meta property="og:title" content="Your Website - Simplified & Supercharged. | Roland Szabó Design">
-		<meta property="og:description" content="Everyone deserves a website that's fast, simple, and effortless to manage.">
+		<meta property="og:description" content="{{ description | default: 'Everyone deserves a website that is fast, simple, and effortless to manage.' }}">
 		<meta property="og:image" content="/assets/images/og-image.webp">
 
 		<!-- FontAwesome -->
