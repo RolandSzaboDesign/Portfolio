@@ -140,7 +140,8 @@ img {
 
 .container {
 	max-width: 96rem;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
@@ -161,8 +162,8 @@ img {
 
 /* Typography */
 
-h1, h2, h3,
-.h1, .h2, .h3 {
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4 {
 	color: var(--text-light);
 }
 
@@ -247,6 +248,34 @@ h3, .h3 {
 	}
 }
 
+h4, .h4 {
+	margin-bottom: 1rem;
+	font-weight: 700;
+	letter-spacing: -.375px;
+	line-height: 1.4;
+}
+
+@media only screen and (max-width: 575.98px) {
+	h4, .h4 {
+		margin-top: 1rem;
+		font-size: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+	h4, .h4 {
+		margin-top: 1.5rem;
+		font-size: 2.25rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	h4, .h4 {
+		margin-top: 2rem;
+		font-size: 2.5rem;
+	}
+}
+
 p,
 ul,
 ol {
@@ -277,7 +306,8 @@ em {
 	font-style: italic;
 }
 
-small {
+small,
+.text-smaller {
 	font-size: 82.5%;
 }
 
@@ -359,7 +389,7 @@ small {
 
 .services {
 	display: grid;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -388,7 +418,7 @@ small {
 
 @media only screen and (min-width: 768px) {
 	.service {
-		padding: 3rem;
+		padding: 2.5rem;
 		border-left: .75rem solid var(--bg-light);
 	}
 }
@@ -397,8 +427,16 @@ small {
 	border-left-color: var(--pink);
 }
 
+.service--pink .service__icon {
+	color: var(--pink);
+}
+
 .service--yellow {
 	border-left-color: var(--yellow);
+}
+
+.service--yellow .service__icon {
+	color: var(--yellow);
 }
 
 .service__header {
@@ -414,13 +452,22 @@ small {
 
 @media only screen and (min-width: 768px) {
 	.service__header {
-		margin-bottom: 3rem;
+		margin-bottom: 2.5rem;
 	}
 }
 
-.service__icon {
-	font-size: 5rem;
-	margin-right: 2rem;
+@media only screen and (max-width: 767.98px) {
+	.service__icon {
+		margin-right: 1.5rem;
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.service__icon {
+		margin-right: 2rem;
+		font-size: 4rem;
+	}
 }
 
 .service__title {
@@ -572,7 +619,9 @@ small {
 /* Utility  Classes */
 
 .mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
 
 .mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
